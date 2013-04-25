@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project name="user">
  <exec executable="phpunit" failonerror="true">
- <arg line=" UnitTest /home/glmstudio/workspace/UserTest.php" />
+ <arg line=" UnitTest ./UserTest.php" />
  </exec>
  <copy file="User.php" tofile="builds/User.php"/>
 </project>
