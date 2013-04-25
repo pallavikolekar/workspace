@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="UserTest" file="/home/glmstudio/workspace/UserTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.010292">
+    <testcase name="testTalk" class="UserTest" file="/home/glmstudio/workspace/UserTest.php" line="5" assertions="1" time="0.010292"/>
+  </testsuite>
+</testsuites>
