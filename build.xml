@@ -6,12 +6,12 @@
  </target>
  
  <target name="prepare">
-  <mkdir dir="${basedir}/build/logs/report"/>
+  <mkdir dir="${basedir}/build/logs/"/>
  </target>
 
  <target name="phpunit">
   <exec dir="${basedir}" executable="phpunit" failonerror="true">
-   <arg line="--coverage-html ${basedir}/build/logs/report/ ./UserTest.php" />
+   <arg line="--coverage-html ${basedir}/report/ ./Tests" />
   </exec>
  </target>
  
