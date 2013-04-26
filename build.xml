@@ -1,9 +1,30 @@
 <?xml version="1.0"?>
-<project name="user">
- <exec executable="phpunit" failonerror="true">
- <arg line=" UnitTest ./UserTest.php" />
- </exec>
- <copy file="User.php" tofile="builds/User.php"/>
+<project name="user" default="build">
+
+ <target name="clean">
+  <delete dir="${basedir}/build"/>
+ </target>
+ 
+ <target name="prepare">
+  <mkdir dir="${basedir}/build/logs"/>
+ </target>
+
+ <target name="phpunit">
+  <exec dir="${basedir}" executable="phpunit" failonerror="true">
+   <arg line="--coverage-html ${basedir}/build/logs/report/ Tests" />
+  </exec>
+ </target>
+ 
+ <target name="phpcs" description="generating checkstyle report">
+  <exec executable="phpcs">
+   <arg line="--report=checkstyle
+              --report-file=${basedir}/build/logs/checkstyle.xml
+              "/>
+  <arg path="${basedir}/User.php" />
+  </exec>
+ </target>
+ 
+ <target name="build" depends="phpunit,phpcs"/> 
 </project>
 
 
