@@ -11,7 +11,7 @@
 
  <target name="phpunit">
   <exec dir="${basedir}" executable="phpunit" failonerror="true">
-   <arg line="--coverage-html ${basedir}/build/logs/report ./Tests" />
+   <arg line="--coverage-html ${basedir}/build/logs/report/ ./Tests" />
   </exec>
  </target>
  
