@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="1.4.5">
+ <file name="/home/glmstudio/workspace/User.php">
+  <error line="2" column="1" severity="error" message="Missing file doc comment" source="PEAR.Commenting.FileComment.Missing"/>
+  <error line="2" column="1" severity="error" message="Missing class doc comment" source="PEAR.Commenting.ClassComment.Missing"/>
+  <error line="2" column="12" severity="error" message="Opening brace of a class must be on the line after the definition" source="PEAR.Classes.ClassDeclaration.OpenBraceNewLine"/>
+  <error line="2" column="12" severity="error" message="Opening brace of a class must be on the line after the definition" source="Squiz.Classes.ClassDeclaration.OpenBraceNewLine"/>
+  <error line="3" column="15" severity="error" message="Expected 1 blank line before member var; 0 found" source="Squiz.WhiteSpace.MemberVarSpacing.After"/>
+  <error line="4" column="12" severity="error" message="Missing function doc comment" source="PEAR.Commenting.FunctionComment.Missing"/>
+  <error line="4" column="12" severity="error" message="Expected 2 blank lines before function; 0 found" source="Squiz.WhiteSpace.FunctionSpacing.Before"/>
+  <error line="4" column="31" severity="error" message="Opening brace should be on a new line" source="PEAR.Functions.FunctionDeclaration.BraceOnSameLine"/>
+  <error line="4" column="31" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+  <error line="6" column="5" severity="error" message="Expected 1 blank line before closing function brace; 0 found" source="Squiz.WhiteSpace.FunctionClosingBraceSpace.SpacingBeforeClose"/>
+  <error line="6" column="5" severity="error" message="Expected 2 blank lines after function; 0 found" source="Squiz.WhiteSpace.FunctionSpacing.After"/>
+  <error line="6" column="5" severity="error" message="Expected //end getName()" source="Squiz.Commenting.ClosingDeclarationComment.Missing"/>
+  <error line="7" column="12" severity="error" message="Missing function doc comment" source="PEAR.Commenting.FunctionComment.Missing"/>
+  <error line="7" column="36" severity="error" message="Opening brace should be on a new line" source="PEAR.Functions.FunctionDeclaration.BraceOnSameLine"/>
+  <error line="7" column="36" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+  <error line="9" column="5" severity="error" message="Expected 1 blank line before closing function brace; 0 found" source="Squiz.WhiteSpace.FunctionClosingBraceSpace.SpacingBeforeClose"/>
+  <error line="9" column="5" severity="error" message="Expected 2 blank lines after function; 0 found" source="Squiz.WhiteSpace.FunctionSpacing.After"/>
+  <error line="9" column="5" severity="error" message="Expected //end setName()" source="Squiz.Commenting.ClosingDeclarationComment.Missing"/>
+  <error line="10" column="12" severity="error" message="Missing function doc comment" source="PEAR.Commenting.FunctionComment.Missing"/>
+  <error line="10" column="28" severity="error" message="Opening brace should be on a new line" source="PEAR.Functions.FunctionDeclaration.BraceOnSameLine"/>
+  <error line="10" column="28" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+  <error line="11" column="16" severity="error" message="String &quot;Hello world!&quot; does not require double quotes; use single quotes instead" source="Squiz.Strings.DoubleQuoteUsage.NotRequired"/>
+  <error line="12" column="5" severity="error" message="Expected 1 blank line before closing function brace; 0 found" source="Squiz.WhiteSpace.FunctionClosingBraceSpace.SpacingBeforeClose"/>
+  <error line="12" column="5" severity="error" message="Expected 2 blank lines after function; 1 found" source="Squiz.WhiteSpace.FunctionSpacing.After"/>
+  <error line="12" column="5" severity="error" message="Expected //end talk()" source="Squiz.Commenting.ClosingDeclarationComment.Missing"/>
+  <error line="13" column="1" severity="error" message="Closing brace of a class must be followed by a single blank line; found 0" source="Squiz.Classes.ClassDeclaration.NewlinesAfterCloseBrace"/>
+  <error line="13" column="1" severity="error" message="Expected //end class" source="Squiz.Commenting.ClosingDeclarationComment.Missing"/>
+ </file>
+</checkstyle>
