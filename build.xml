@@ -18,9 +18,9 @@
  <target name="phpcs" description="generating checkstyle report">
   <exec executable="phpcs">
    <arg line="--report=checkstyle
-              --report-file=${basedir}/build/logs/checkstyle.xml
+              --report-file=./build/logs/checkstyle.xml
               "/>
-  <arg path="${basedir}/User.php" />
+  <arg path="./User.php" />
   </exec>
  </target>
  
